@@ -46,7 +46,8 @@ export const UI = ({
   return (
     <div className="ui-layer">
       <div style={{ position: 'absolute', top: 20, right: 20, display: 'flex', gap: 10, alignItems: 'center', pointerEvents: 'auto' }}>
-        <span style={{ fontSize: '0.8rem', opacity: 0.7 }}>v0.1.0-beta</span>
+        <span style={{ fontWeight: 'bold', marginRight: 10 }}>Glot Teacher</span>
+        <span style={{ fontSize: '0.8rem', opacity: 0.7 }}>v1.0</span>
       </div>
 
       <div className="chat-container">
